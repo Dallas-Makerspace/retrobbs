@@ -1,0 +1,33 @@
+---
+version: '3.7'
+
+networks:
+  default:
+    external: true
+    name: 'public'
+    
+volumes:
+  filebase:
+  db:
+  config:
+  mods:
+  art:
+    
+services:
+  enigma:
+    environment:
+      TZ: 'Etc/UTC-6'
+    deploy:
+      restart_policy:
+        condition: on-failure
+    ports:
+      - 7180:8888/tcp
+      - 24554:24554/tcp
+    volumes:
+      - db:/enigma-bbs/db
+      - filebase:/enigma-bbs/filebase
+      - config:/enigma-bbs/config
+      - mods:/enigma-bbs/mods
+      - art:/enigma-bbs/art
+    image: davestephens/enigma-bbs:latest
+...
