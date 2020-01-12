@@ -25,4 +25,4 @@ Documentation on EngimaBBS can be found at [ENiGMA½ BBS Software](https://enigm
 
 ## Issues
 
-Submit bug reports and issues to [helpdesk](helpdesk.dallasmakerspace.org).
+Submit bug reports and issues to [helpdesk](https://helpdesk.dallasmakerspace.org).
