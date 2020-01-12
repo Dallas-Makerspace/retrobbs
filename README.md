@@ -1,6 +1,8 @@
 # retrobbs
 Enigma based RetroBBS with telnet support
 
+![](https://enigma-bbs.github.io/assets/images/screenshots/logon-matrix.png)
+
 ## Some key features
 
 * Multi platform: ENiGMA½ works anywhere Node.js runs (Linux, FreeBSD, OpenBSD, OS X, Plan9, and Windows)
