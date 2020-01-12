@@ -21,3 +21,8 @@ Import this repo to the community grid. then use your favorite ANSI telnet clien
 ## Additional Details
 
 Documentation on EngimaBBS can be found at [ENiGMA½ BBS Software](https://enigma-bbs.github.io/).
+
+
+## Issues
+
+Submit bug reports and issues to [helpdesk](helpdesk.dallasmakerspace.org).
